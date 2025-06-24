@@ -1,0 +1,27 @@
+{
+  "name": "lesen-b2-quest-german",
+  "version": "1.0.1",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "build": "eas build --platform android"
+  },
+  "dependencies": {
+    "expo": "~50.0.0",
+    "react": "18.2.0",
+    "react-native": "0.73.0",
+    "expo-av": "~13.2.1",
+    "expo-linear-gradient": "~12.6.0",
+    "expo-status-bar": "~1.6.0",
+    "react-native-svg": "^14.1.0",
+    "@react-navigation/native": "^6.1.3",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@react-native-async-storage/async-storage": "^1.20.0",
+    "firebase": "^10.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
